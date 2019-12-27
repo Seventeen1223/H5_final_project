@@ -1,0 +1,32 @@
+.mui-bar-nav{
+	background-color: #000000;
+}
+.mui-bar-nav .mui-title,.mui-bar-nav a{
+	color: #FFFFFF;
+	font-weight: 600;
+}
+.mui-grid-view.mui-grid-9{background: #FFFFFF;}
+.mui-table-view.mui-grid-view .mui-table-view-cell span{
+	font-size: 2em;
+	padding: 0.8rem;
+	color: #FFFFFF;
+	text-align: center;
+	border-radius: 1rem;
+	background-image: none;
+}
+.mui-icon.mui-icon-home{
+	background-color: #2AC845;
+}
+
+.mui-icon.mui-icon-email{
+	background-color: #007AFF;
+}
+.mui-icon-chatbubble{
+	background-color: #4CD964;
+}
+.mui-icon-location{
+	background-color: #6D6D72;
+}
+.mui-icon-search{
+	background-color: #8A6DE9;
+}

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Hello MUI</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="css/mui.min.css">
+        <script src="icon/iconfont.js"></script>
+        <link rel="stylesheet" href="icon/iconfont.css">
+		<link rel="stylesheet" href="css/exam1.css">
+		<!--App自定义的css-->
+		<!--<link rel="stylesheet" type="text/css" href="../css/app.css"/>-->
+	</head>
+<style>
+.icon {
+  width: 2em;
+  height: 2em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+</style>
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">小书馆</h1>
+		</header>
+		<div class="mui-content">
+			<ul class="mui-table-view mui-table-view-chevron">
+				<li id="switch" class="mui-table-view-cell">
+					每日推荐
+					<div class="mui-switch">
+						<div class="mui-switch-handle"></div>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div id="slider" class="mui-slider" >
+			<div class="mui-slider-group mui-slider-loop">
+				<!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+				<div class="mui-slider-item mui-slider-item-duplicate">
+					<a href="#">
+						<img src="images/yuantiao.jpg">
+					</a>
+				</div>
+				<!-- 第一张 -->
+				<div class="mui-slider-item">
+					<a href="#">
+						<img src="images/shuijiao.png">
+					</a>
+				</div>
+				<!-- 第二张 -->
+				<div class="mui-slider-item">
+					<a href="#">
+						<img src="images/muwu.png">
+					</a>
+				</div>
+				<!-- 第三张 -->
+				<div class="mui-slider-item">
+					<a href="#">
+						<img src="images/cbd.png">
+					</a>
+				</div>
+				<!-- 第四张 -->
+				<div class="mui-slider-item">
+					<a href="#">
+						<img src="images/yuantiao.jpg">
+					</a>
+				</div>
+				<!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+				<div class="mui-slider-item mui-slider-item-duplicate">
+					<a href="#">
+						<img src="images/shuijiao.jpg">
+					</a>
+				</div>
+			</div>
+			<div class="mui-slider-indicator">
+				<div class="mui-indicator mui-active"></div>
+				<div class="mui-indicator"></div>
+				<div class="mui-indicator"></div>
+				<div class="mui-indicator"></div>
+			</div>
+		</div>
+		<nav class="mui-bar mui-bar-tab">
+		    <a class="mui-tab-item mui-active" href="index.html">
+		        <span class="mui-tab-label">
+                <svg class="icon" aria-hidden="true">
+  <use xlink:href="#icon-yemian-copy-copy"></use>
+</svg></span>
+		    </a>
+		    <a class="mui-tab-item" href="imageviewer.html">
+		        <span class="mui-tab-label"><svg class="icon" aria-hidden="true">
+  <use xlink:href="#icon-zhaopian"></use>
+</svg></span>
+		    </a>
+		    <a class="mui-tab-item" href="card.html">
+		        <span class="mui-tab-label"><svg class="icon" aria-hidden="true">
+  <use xlink:href="#icon-qia"></use>
+</svg></span>
+		    </a>
+		    <a class="mui-tab-item" href="login.html">
+		        <span class="mui-tab-label"><svg class="icon" aria-hidden="true">
+  <use xlink:href="#icon-denglu1"></use>
+</svg></span>
+		    </a>
+		</nav>
+				</header>
+		<div class="mui-content">
+		        <ul class="mui-table-view mui-grid-view mui-grid-9">
+		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="https://www.readnovel.com/"><svg class="icon" aria-hidden="true">
+  <use xlink:href="#icon-butterfly"></use>
+</svg>
+
+		                    <div class="mui-media-body">小说阅读</div></a></li>
+		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="http://www.zhulang.com/"><svg class="icon" aria-hidden="true">
+  <use xlink:href="#icon-jingyu"></use>
+</svg>
+		                    <div class="mui-media-body">逐浪</div></a></li>
+		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="https://www.17k.com/"><svg class="icon" aria-hidden="true">
+  <use xlink:href="#icon-17-copy"></use>
+</svg>
+
+		                    <div class="mui-media-body">17K</div></a></li>
+		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="http://yuedu.163.com/index"><svg class="icon" aria-hidden="true">
+  <use xlink:href="#icon-wangyi"></use>
+</svg>
+
+		                    <div class="mui-media-body">网易</div></a></li>
+		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="http://www.tadu.com/"><svg class="icon" aria-hidden="true">
+  <use xlink:href="#icon-ta"></use>
+</svg>
+
+		                    <div class="mui-media-body">塔读</div></a></li>
+		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="http://book.qq.com/"><svg class="icon" aria-hidden="true">
+ <use xlink:href="#icon--qie"></use>
+</svg>
+
+		                    <div class="mui-media-body">腾讯</div></a></li>
+		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="http://www.zongheng.com/"><svg class="icon" aria-hidden="true">
+  <use xlink:href="#icon-zongheng"></use>
+  </svg>
+
+		                    <div class="mui-media-body">纵横</div></a></li>
+		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="https://www.qidian.com/"> 
+<svg class="icon" aria-hidden="true">
+  <use xlink:href="#icon-qidian"></use>
+  </svg>
+
+		                    <div class="mui-media-body">起点</div></a></li>
+		           <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="http://www.jjwxc.net/"><svg class="icon" aria-hidden="true">
+  <use xlink:href="#icon-icon-test"></use>
+  </svg>
+
+
+		                    <div class="mui-media-body">晋江</div></a></li>
+		        </ul> 
+		</div>
+
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript" charset="utf-8">
+			mui.init({
+				swipeBack:true //启用右滑关闭功能
+			});
+			var slider = mui("#slider");
+			document.getElementById("switch").addEventListener('toggle', function(e) {
+				if (e.detail.isActive) {
+					slider.slider({
+						interval: 5000
+					});
+				} else {
+					slider.slider({
+						interval: 0
+					});
+				}
+			});
+		</script>
+	</body>
+
+</html>
